@@ -1,0 +1,36 @@
+header {
+    height: 100%;
+    position: sticky;
+    top: 0;
+
+}
+#icon-menu{
+    display: none;
+}
+.logo{
+    cursor: pointer;
+    
+}
+.navbar{
+    background-color: orange;
+
+
+}
+.navbar-nav li a:hover{
+    text-decoration: underline;
+}
+
+
+.dropdown-menu{
+    background-color: orange;
+}
+
+.navbar-brand{
+    img{
+        width: 45px;
+    }
+}
+.btn{
+    border: solid rgb(19, 19, 20);
+    color: black;
+}

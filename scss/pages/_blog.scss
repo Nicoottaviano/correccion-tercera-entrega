@@ -1,0 +1,53 @@
+.parrafo-blog{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+
+.blog{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    color: orange;
+    h1{
+        @extend .titulos;
+        color: $titulos;
+    }
+}
+.video-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 45px;
+    iframe{
+        max-width: 560px;
+        border: solid orange;
+        border-radius: 15px;
+    }
+    img{
+        width: 400px;
+        border: solid orange;
+        border-radius: 15px;
+    }
+}
+@media (max-width: 420px){
+    .parrafo-blog p{
+        margin-top: -75px;
+        
+       }
+       .video-blog {
+        img{
+            max-width: 360px;
+            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+        iframe{
+            width: 360px;
+            border-radius: 15px;
+        }
+       }
+       .parrafo1{
+        color: green;
+       }
+}   

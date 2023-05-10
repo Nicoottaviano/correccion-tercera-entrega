@@ -1,0 +1,48 @@
+.container-form{
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 245px;
+    margin-right: 245px;
+    padding: 15px 15px 45px 45px;
+    display: flex;
+    justify-content: center;
+    border: solid orange;
+    border-radius: 10px;
+
+    }
+    .form-titulo{
+        @extend .titulos;
+    }
+    .formulario{
+        p{
+            font-size: 20px;
+            color: $letra-chica;
+            padding: -20px;
+            margin: auto;
+        }
+        small{
+            color: $letra-chica;
+            display: flex;
+        }
+    }
+    .boton-enviar{
+            background-color: rgb(250, 123, 12);
+            padding: 5px;
+            color: black;
+            border: solid black;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px;
+            &:hover{
+                transform: scale(1.1);
+            }
+            
+    }
+    
+    
+    @media (max-width: 420px){
+        .container-form{
+            margin-left: 10px;
+            margin-right: 10px;
+        
+           }
+    }
