@@ -147,3 +147,16 @@
 
        }
 }
+@media (max-width: 800px){
+    .text-informacion-main p{
+        display: none;
+    }
+    .media-main img{
+        max-width: 200px;
+    }
+    .main{
+        margin-bottom: 20px;
+    }
+
+
+}

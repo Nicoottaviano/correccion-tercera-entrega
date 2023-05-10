@@ -11,13 +11,13 @@
     
 }
 .carousel{
-    width: 80%;
+    max-width: 650px;
     margin: auto;
     overflow: hidden;
 }
 .carousel-item h5{
     color: $titulos;
-    font-size: 40px;
+    font-size: 20px;
 }
 .sedes-titulo{
     @extend .titulos;
