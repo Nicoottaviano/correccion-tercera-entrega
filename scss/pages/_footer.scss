@@ -36,5 +36,9 @@ footer{
     align-items: center;
     a{
         text-decoration: none;
+    
+    &:hover{
+        color: orange;
+    }
     }
 }
